@@ -31,15 +31,13 @@
 # 📖 Create a database based on a diagram  <a name="about-project"></a>
 This repository includes files with plain SQL that can be used to recreate a database:
 
-- Use [schema_based_on_diagram.sql ](./schema_based_on_diagram.sql ) to create all tables.
-
 ## 🛠 Built With <a name="built-with"></a>
 
 ## Tech Stack <a name="tech-stack"></a>
 
 <ul>
 
-  <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  <li><a href="https://github.com/microverseinc/curriculum-ruby/blob/main/simple-ruby/lessons/basic_syntax.md">Ruby</a></li>
   <!-- <li><a href="https://microverse.notion.site/HTML-CSS-Get-a-head-start-275eb85fd34b4416aa06ec635d69cdaf">HTML</a></li>
   <li><a href="https://microverse.notion.site/HTML-CSS-Get-a-head-start-275eb85fd34b4416aa06ec635d69cdaf">CSS</a></li>
       <li><a href="https://microverse.notion.site/HTML-CSS-Get-a-head-start-275eb85fd34b4416aa06ec635d69cdaf">JS</a></li>
@@ -52,11 +50,11 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ## 🔑 Key Features <a name="key-features"></a>
 
-### Create a database based on a diagram [Requirements](https://github.com/microverseinc/curriculum-databases/blob/main/db-structure/database_from_diagram.md)
+### Decode a Morse code message [Requirements](https://github.com/microverseinc/curriculum-ruby/blob/main/simple-ruby/morse_code.md)
 
-- [x] Create a file named schema_based_on_diagram.sql where  implement the database from the diagram.
-- [x] Join tables from many-to-many relationships might not appear in the diagram
-- [x] add the FK indexes.
+- [x] Create a method to decode a Morse code character, takes a string parameter, and return the corresponding character in uppercase (e.g. decode_char(".-") returns "A").
+- [x] Create a method to decode an entire word in Morse code, takes a string parameter, and return the string representation. Every character in a word will be separated by a single space (e.g. decode_word("-- -.--") returns "MY").
+- [x] Create a method to decode the entire message in Morse code, takes a string parameter, and return the string representation. Every word will be separated by 3 space
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,8 +69,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - Linkdin: [Bwambale](https://www.linkedin.com/in/Bwambale-benny-wolter/)
 
 ## 🔭 Future Features <a name="future-features"></a>
-- OPtimization the foreign key with indexing💯
-- Use the many to many relationship🚀
+- Inhance the project additional parameters 🚀
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
