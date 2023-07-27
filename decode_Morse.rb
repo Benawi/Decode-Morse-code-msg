@@ -10,4 +10,8 @@ MORSE_CODE = {
     MORSE_CODE[char].upcase
   end
   
+  def decode_word(word)
+    word.split(" ").map { |char| decode_char(char) }.join
+  end
+  
   
