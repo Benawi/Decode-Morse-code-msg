@@ -5,5 +5,9 @@ MORSE_CODE = {
     "..." => "S", "-" => "T", "..-" => "U", "...-" => "V", ".--" => "W", "-..-" => "X",
     "-.--" => "Y", "--.." => "Z"
   }
+
+  def decode_char(char)
+    MORSE_CODE[char].upcase
+  end
   
   
