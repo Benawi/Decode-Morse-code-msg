@@ -9,9 +9,13 @@ MORSE_CODE = {
   def decode_char(char)
     MORSE_CODE[char].upcase
   end
-  
+
   def decode_word(word)
     word.split(" ").map { |char| decode_char(char) }.join
+  end
+
+  def decode_message(message)
+    message.split("   ").map { |word| decode_word(word) }.join(" ")  
   end
   
   
